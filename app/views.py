@@ -20,7 +20,7 @@ def home(request):
             'year':datetime.now().year,
         })
     )
-
+#Alteração da views
 def contact(request):
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)
