@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^cadastro_cursos', 'app.views.cadastro_cursos', name='cadastro_cursos'),
     url(r'^login/$',
     url(r'^cadastro_vestibulares', 'app.views.cadastro_vestibulares', name='cadastro_vestibulares'),
+    url(r'^inscricao_candidatos', 'app.views.inscricao_candidatos', name='inscricao_candidatos'),
         'django.contrib.auth.views.login',
         {
             'template_name': 'app/login.html',
